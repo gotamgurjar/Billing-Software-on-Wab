@@ -1,74 +1,114 @@
-# Billing Software on Web
+# 🧾 Billing Software (Web Based)
 
-A simple **Web-Based Billing Software with GST support**.
-This project allows users to manage customers, products, and generate bills through a web interface.
-
----
-
-## 🚀 Features
-
-* Add Customer
-* Add Product
-* Generate Bill
-* Customer List Management
-* GST Billing Support
-* Simple Web Interface
+A simple and powerful **Web-Based Billing Software with GST support** built using **HTML, JavaScript and Node.js**.
+This project helps manage **customers, products and billing operations** in an easy way through a web interface.
 
 ---
 
-## 🛠 Technologies Used
+# 🚀 Features
+
+✔ Add New Customers
+✔ Add Products
+✔ Generate GST Bills
+✔ Customer List Management
+✔ Simple Web Interface
+✔ Fast Billing System
+
+---
+
+# 🛠 Tech Stack
+
+Frontend
 
 * HTML
+* CSS
 * JavaScript
+
+Backend
+
 * Node.js
 * Express.js
 
+Database
+
+* (Add MongoDB / JSON / File Storage if used)
+
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-addCustomer.html → Add new customer
-addProduct.html → Add new product
-bill.html → Create bill
-customerList.html → View customers
+addCustomer.html → Add customer page
+addProduct.html → Add product page
+bill.html → Billing interface
+customerList.html → Customer list page
+
 bill.js → Billing logic
-customer.js → Customer operations
+customer.js → Customer logic
+
 billRoutes.js → Billing routes
 customerRoutes.js → Customer routes
 
+SECURITY.md → Security guidelines
+
 ---
 
-## ⚙️ How to Run the Project
+# ⚙️ Installation & Setup
 
-1. Clone the repository
+### 1️⃣ Clone Repository
 
 git clone https://github.com/gotamgurjar/Billing-Software-on-Wab.git
 
-2. Open the project folder
+### 2️⃣ Open Project Folder
 
-3. Run the server (Node.js required)
+cd Billing-Software-on-Wab
+
+### 3️⃣ Install Dependencies
+
+npm install
+
+### 4️⃣ Run the Server
 
 node server.js
 
-4. Open in browser
+### 5️⃣ Open in Browser
 
 http://localhost:3000
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-(Add screenshots of your billing interface here)
+(Add screenshots of billing interface here)
+
+Example:
+
+Dashboard
+Customer Form
+Billing Page
 
 ---
 
-## 👨‍💻 Author
+# 🎯 Future Improvements
+
+* GST calculation automation
+* Invoice PDF download
+* Product inventory system
+* Login & authentication system
+* Database integration
+
+---
+
+# 👨‍💻 Author
 
 **Gotam Gurjar**
 Software Developer
 
 📍 Jaipur, Rajasthan, India
 
+📧 Email: [gotamgurjar6@gmail.com](mailto:gotamgurjar6@gmail.com)
+
 ---
 
-⭐ If you like this project, please **star the repository**.
+# ⭐ Support
+
+If you like this project, please **give it a star ⭐ on GitHub**.
